@@ -22,7 +22,7 @@ TEST_CASES_CSV = "plant_ai_test_cases.csv"
 RESULTS_CSV = "plant_ai_test_results.csv"
 
 API_ENDPOINT = "https://www.plant.id/api_frontend/identify"
-API_KEY = "REPLACE_WITH_KEY"                                # TODO: replace
+API_KEY = "ImcEHEdy3B4K9emuLwMewUsyhozQGsQ3SEga4U9aA3UdfQCWlN"                                
 
 # Column names in CSV
 COL_TEST_ID = "test_id"
