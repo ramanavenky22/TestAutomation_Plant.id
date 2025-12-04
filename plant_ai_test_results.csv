@@ -1,0 +1,29 @@
+timestamp,test_id,crop,disease,image_path,expected_label,predicted_label,confidence,pass,severity,area,focus,image_quality,lighting,visibility,weather_season
+2025-12-04T13:59:40.719990,TC01,Tomato,Early Blight,images/tomato/confused-bacterial-canker-early-blight-zoom.JPG.jpg,Fungi,Fungi,0.9285,True,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T13:59:44.134865,TC02,Tomato,Early Blight,images/tomato/009-e1373768789869.jpg,Bacteria,Bacteria,0.3195,True,Severe,Whole Leaf,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T13:59:47.055844,TC03,Tomato,Late Blight,images/tomato/59380.jpg,Fungi,Fungi,0.3713,True,Mild,Small Spot,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T13:59:48.116675,TC04,Tomato,Late Blight,images/tomato/CTG514794.jpg,Insecta,,0,False,Moderate,Multi Spots,SlightBlur,Blur,Dim,Partial,AuCloud
+2025-12-04T13:59:51.639889,TC05,Apple,Scab,images/apple/20130519yellowingappleleaves.jpg,Fungi,Fungi,0.765,True,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T13:59:55.665008,TC06,Apple,Scab,images/apple/2017-09-23-07-48-04.jpg,Fungi,Fungi,0.3957,True,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T14:00:00.169498,TC07,Apple,Rust,images/apple/1-Cedar-apple-rust-infections-and-rust-induced-leafspot-on-Ginger-Gold-4-Jun-08-2d4hi2k.jpg,cedar-apple rust,Fungi,0.9898,True,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:05.078350,TC08,Apple,Rust,images/apple/1-Severe-cedar-apple-rust-on-Ginger-Gold-1-Jul-09-1n5iktz.jpg,rust,Fungi,0.9285,True,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:08.191598,TC09,Grape,Black Rot,images/grape/220px-Guignardia_bidwellii_08.jpg,Fungi,Fungi,0.5621,True,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:11.731023,TC10,Grape,Black Rot,images/grape/000g.jpg,Animalia,Animalia,0.5965,True,Mild,Small Spot,SlightBlur,Blur,Dim,Partial,AuCloud
+2025-12-04T14:00:12.881088,TC11,Grape,Leaf Blight,images/grape/00gb.jpg,Fungi,,0,False,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T14:00:16.245498,TC12,Tomato,Healthy,images/tomato/Leaves-of-Tomato.jpg,Insecta,Insecta,0.0684,True,Healthy,FullLeaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:19.463441,TC13,Corn,Gray Leaf Spot,images/corn/2013Corn_GrayLeafSpot_0815_0003.JPG.jpg,Fungi,Fungi,0.99,True,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:23.684987,TC14,Corn,Tar Spot,images/corn/corn-diseases-fig-2-tar-spot.jpg,Fungi,Fungi,0.99,True,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:27.303847,TC15,Corn,Disease,images/corn/00c.jpg,rust,rust,0.99,True,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:30.264130,TC16,Potato,Early Blight,images/potato/2OBH_29_Gardening_early_blight.jpg,Fungi,Fungi,0.5312,True,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T14:00:33.549073,TC17,Potato,Disease,images/potato/0042241.jpg,light excess,light excess,0.2973,True,Mild,Small Spot,SlightBlur,Blur,Backlight,Partial,WiCloud
+2025-12-04T14:00:36.519208,TC18,Bell Pepper,Disease,images/bellpepper/0.jpg,Animalia,Animalia,0.8692,True,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:40.424765,TC19,Bell Pepper,Disease,images/bellpepper/04.jpg,Fungi,Fungi,0.3943,True,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T14:00:44.273958,TC20,Blueberry,Disease,images/blueberry/5920105029_2c657564ba_b.jpg,blueberry disease,low temperatures and frost damage,0.4705,False,Mild,Small Spot,SlightBlur,Blur,Dim,Partial,AuRain
+2025-12-04T14:00:48.156471,TC21,Blueberry,Disease,images/blueberry/7-blueberry-leaves.jpg,blueberry disease,senescence,0.8972,False,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:00:51.061286,TC22,Cherry,Disease,images/cherry/1b9155649757248759cdbe7d83cc94c0.jpg,Fungi,Fungi,0.2667,True,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T14:00:54.120176,TC23,Cherry,Disease,images/cherry/5dab054e26cde431baf6a8e0e3f0f258.jpg,cherry disease,low temperatures and frost damage,0.2619,False,Mild,Small Spot,SlightBlur,Blur,Dim,Partial,WiCloud
+2025-12-04T14:00:58.747744,TC24,Soybean,Downy Mildew,images/soyabean/downy-mildew-on-soybeans-2csq9n7.jpg,downy mildew,downy mildew,0.99,True,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:01:02.802442,TC25,Soybean,Brown Spot,images/soyabean/Brown%20Spot%20-%20dark%20spots.jpg,Fungi,Fungi,0.7948,True,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+2025-12-04T14:01:06.482870,TC26,Soybean,Potassium Deficiency,images/soyabean/kdeficiency4.jpg,Fungi,Fungi,0.7004,True,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+2025-12-04T14:01:09.421923,TC27,Non-Plant,Not Plant,images/book.jfif,NOT_A_PLANT,NOT_A_PLANT,0.0,True,N/A,N/A,Sharp,Clear,Bright,N/A,N/A
+2025-12-04T14:01:10.499178,TC28,Non-Plant,Not Plant,images/table.jfif,NOT_A_PLANT,NOT_A_PLANT,0.0,True,N/A,N/A,Sharp,Clear,Bright,N/A,N/A

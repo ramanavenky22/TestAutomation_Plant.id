@@ -1,1 +1,29 @@
-test_id	image_path	expected_label
+test_id,crop,disease,image_path,expected_label,severity,area,focus,image_quality,lighting,visibility,weather_season
+TC01,Tomato,Early Blight,images/tomato/confused-bacterial-canker-early-blight-zoom.JPG.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+TC02,Tomato,Early Blight,images/tomato/009-e1373768789869.jpg,Bacteria,Severe,Whole Leaf,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC03,Tomato,Late Blight,images/tomato/59380.jpg,Fungi,Mild,Small Spot,Sharp,Clear,Bright,FullLeaf,SuClear
+TC04,Tomato,Late Blight,images/tomato/CTG514794.jpg,Insecta,Moderate,Multi Spots,SlightBlur,Blur,Dim,Partial,AuCloud
+TC05,Apple,Scab,images/apple/20130519yellowingappleleaves.jpg,Fungi,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC06,Apple,Scab,images/apple/2017-09-23-07-48-04.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC07,Apple,Rust,images/apple/1-Cedar-apple-rust-infections-and-rust-induced-leafspot-on-Ginger-Gold-4-Jun-08-2d4hi2k.jpg,cedar-apple rust,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC08,Apple,Rust,images/apple/1-Severe-cedar-apple-rust-on-Ginger-Gold-1-Jul-09-1n5iktz.jpg,rust,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC09,Grape,Black Rot,images/grape/220px-Guignardia_bidwellii_08.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+TC10,Grape,Black Rot,images/grape/000g.jpg,Animalia,Mild,Small Spot,SlightBlur,Blur,Dim,Partial,AuCloud
+TC11,Grape,Leaf Blight,images/grape/00gb.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC12,Tomato,Healthy,images/tomato/Leaves-of-Tomato.jpg,Insecta,Healthy,FullLeaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC13,Corn,Gray Leaf Spot,images/corn/2013Corn_GrayLeafSpot_0815_0003.JPG.jpg,Fungi,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC14,Corn,Tar Spot,images/corn/corn-diseases-fig-2-tar-spot.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+TC15,Corn,Disease,images/corn/00c.jpg,rust,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC16,Potato,Early Blight,images/potato/2OBH_29_Gardening_early_blight.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC17,Potato,Disease,images/potato/0042241.jpg,light excess,Mild,Small Spot,SlightBlur,Blur,Backlight,Partial,WiCloud
+TC18,Bell Pepper,Disease,images/bellpepper/0.jpg,Animalia,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+TC19,Bell Pepper,Disease,images/bellpepper/04.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC20,Blueberry,Disease,images/blueberry/5920105029_2c657564ba_b.jpg,blueberry disease,Mild,Small Spot,SlightBlur,Blur,Dim,Partial,AuRain
+TC21,Blueberry,Disease,images/blueberry/7-blueberry-leaves.jpg,blueberry disease,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+TC22,Cherry,Disease,images/cherry/1b9155649757248759cdbe7d83cc94c0.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC23,Cherry,Disease,images/cherry/5dab054e26cde431baf6a8e0e3f0f258.jpg,cherry disease,Mild,Small Spot,SlightBlur,Blur,Dim,Partial,WiCloud
+TC24,Soybean,Downy Mildew,images/soyabean/downy-mildew-on-soybeans-2csq9n7.jpg,downy mildew,Severe,Whole Leaf,Sharp,Clear,Bright,FullLeaf,SuClear
+TC25,Soybean,Brown Spot,images/soyabean/Brown%20Spot%20-%20dark%20spots.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Bright,FullLeaf,SuClear
+TC26,Soybean,Potassium Deficiency,images/soyabean/kdeficiency4.jpg,Fungi,Moderate,Multi Spots,Sharp,Clear,Moderate,FullLeaf,SpClear
+TC27,Non-Plant,Not Plant,images/book.jfif,NOT_A_PLANT,N/A,N/A,Sharp,Clear,Bright,N/A,N/A
+TC28,Non-Plant,Not Plant,images/table.jfif,NOT_A_PLANT,N/A,N/A,Sharp,Clear,Bright,N/A,N/A
